@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  box-sizing: border-box;  
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  min-height: 65%;
+  background-color: deepskyblue;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 80vw;
+  margin: auto;
+  
+}
+
+
+.Header {
+  background-color: rgb(199, 216, 231);
+  flex: 0 0 auto;
+  width: 100%;
+  height: 5%;
+  margin: auto;
+
+}
+.Nav{
+  background-color: rgb(204, 204, 246);
+  order: 1;
+  width: 15%;
+}
+.MainC{
+  background-color: rgb(255, 251, 251);
+  flex-grow: 1;
+  order: 2;
+  width: 85%;
+}
+.Nav, .MainC{
+  height: 85%;
+}
+.Footer{
+  background: deepskyblue;
+  text-align: center;
+  order: 3;
+  height: 10%;
+  width: 100%;
+
+}
+
+.IMG {
+  max-width: 100%;
+  height: 100%;
+  background-color: rgb(59, 59, 27);
+}
+
+
+.Animal{
+  width: 100px;
+}
+.HeadMenu{
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+  list-style: none;
+  margin: 0;
+  background: deepskyblue;
+  font-size: 25px;
+}
+
+.HeadMenu a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
   color: white;
+  width: 200px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.HeadMenu a:hover {
+  background: #1565C0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media all and (max-width: 800px) {
+  .HeadMenu {
+    justify-content: space-around;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media all and (max-width: 600px) {
+  .HeadMenu {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .HeadMenu a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .HeadMenu li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+/*navigation panel*/
+.Nav{
+  /* display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  list-style: none; */
+  margin: auto;
+  background: rgb(238, 240, 241);
+  font-size: 25px;
+  align-items: center;
+}
+
+.Nav a {
+  text-decoration: none;
+  display: block;
+  padding: 0em;
+  color: rgb(190, 52, 52);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.Nav a:hover {
+  background: #1565C0;
+}
+
+@media all and (max-width: 800px) {
+  .Nav {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .Nav {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .Nav a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .Nav li:last-of-type a {
+    border-bottom: none;
   }
 }
