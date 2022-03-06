@@ -6,23 +6,23 @@ const Navigation = () => {
     return (<nav className='Nav'>
         <div className='itemNav'>
 
-            <a>Profile</a>
+            <a href='/ProFile'>Profile</a>
         </div>
         <div className='itemNav'>
 
-            <a>Messages</a>
+            <a href='Dialogs'>Messages</a>
         </div>
         <div className='itemNav'>
 
-            <a>News</a>
+            <a href='News'>News</a>
         </div>
         <div className='itemNav'>
 
-            <a>Music</a>
+            <a href='Music'>Music</a>
         </div>
         <div className='itemNav'>
 
-            <a>Settings</a>
+            <a href='Videos'>Videos</a>
         </div>
     </nav>)
 }

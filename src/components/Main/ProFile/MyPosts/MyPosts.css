@@ -52,12 +52,12 @@
     color: #222;
   }
 .Cara{
-    background-color: rgb(221, 205, 205);
-    display: blo;
+    background-color: transparent;
+    display: block;
      min-height: 85vh;
     flex-wrap: wrap;
      margin: auto;
-     border: 1px solid #fff; 
+     /* border: 1px solid #fff;  */
     margin: 20px 0;
     padding: 10px;
   }

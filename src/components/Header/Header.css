@@ -1,33 +1,37 @@
 .Header {
-    background-color: #25003B(199, 216, 231);
     flex: 0 0 auto;
     width: 100%;
-    height: 5%;
     margin: auto;
-  
+    align-items: center;
+    background: rgba(218, 125, 19, 0.1);
+    
   }
   .HeadMenu{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-  
+    height: 10vh;
     list-style: none;
     margin: 0;
-    background: #25003B;
     font-size: 25px;
+    
   }
   
   .HeadMenu a {
     text-decoration: none;
     display: block;
     padding: 0.5em;
-    color: white;
+    color: #ffffff;
     width: 200px;
+    text-align: center;
+    margin-top: 20px;
     
   }
   
   .HeadMenu a:hover {
-    background: #1565C0;
+    /* background: #1565C0; */
+    border-bottom: 5px solid #ff6702;
+    /* border-bottom-style: dashed; */
   }
   
   @media all and (max-width: 800px) {

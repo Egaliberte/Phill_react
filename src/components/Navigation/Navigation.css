@@ -3,11 +3,12 @@
     background-color: #7600BA(204, 204, 246);
     order: 1;
     width: 10%;
-    min-height: 85vh;
-    background-color: #FEFBFB;
-    font-size: 25px;
-    align-items: center;
-    border: 1px solid #590ba3;
+    min-height: 80vh;
+    background-color: transparent;
+    font-size: 30px;
+    margin-right: auto;
+    padding: 5px;
+    /* border: 1px solid #590ba3; */
 
   }
   
@@ -16,10 +17,10 @@
     text-decoration: none;
     display: block;
     padding: 0em;
-    color: rgb(132, 19, 185);
+    color: rgb(255, 255, 255);
     width: 100%;
     margin: auto;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     /* font-family: ‘Didact Gothic’, arial, serif; ; */
     

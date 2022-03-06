@@ -19,8 +19,9 @@ const MyPostsMain = () => {
             <div>
                 <h1>Users posts</h1>
                 <div className='Post'>
-                    <Post message='Im so tired to be here'/>
-                    <Post message='Im so happy to be here'/>
+                    <Post message='АЛЕСЯ ДУРОЧКАААА !!!'/>
+                    <Post message='СОГЛАСЕН С КОММЕНТАРИЕМ ВЫШЕ ОЛЕСЯ ОЧЕНЬ ГЛУПАЯ ИЗЛАЯ'/>
+                    
                     
                    
                    

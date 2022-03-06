@@ -4,11 +4,20 @@
   align-items: stretch;
   background-color: #FEFBFB;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   font-family: ‘Didact Gothic’, arial, serif; 
   margin: auto;
   justify-content: space-around;
   height: auto;
   min-height: 100vh;
+  background-image: url(./components/images/big1.jpg);
+  background-attachment: fixed;
 
+}
+
+
+.Main-Class-Wrapper{
+  order: 2;
+  margin-inline-end: auto;
+  width: 80%;
 }
