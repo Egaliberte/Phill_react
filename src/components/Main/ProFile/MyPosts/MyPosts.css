@@ -1,0 +1,110 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  .custom-field {
+    font-size: 14px;
+    position: relative;
+    /* margin: 20px;
+    --field-padding: 12px; */
+    /* border-top: 20px solid transparent; */
+  }
+  .custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 800px;
+    height: 200px;
+    font-size: 14px;
+    padding: var(--field-padding);
+  }
+  .custom-field .placeholder {
+    position: absolute;
+    left: 12px;
+    bottom: 50%;
+    top: 22px;  
+    transform: translateY(-50%);
+    width: calc(100% - 24px);  
+    color: #aaa;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    left: var(--field-padding);
+    width: calc(100% - (var(--field-padding) * 2));
+    transition: 
+    top 0.3s ease,
+    color 0.3s ease,
+    font-size 0.3s ease;
+  }
+  .custom-field input:not(:placeholder-shown) + .placeholder
+.custom-field input:focus + .placeholder {
+  top: -10px;
+  font-size: 10px;
+  color: #222;
+}
+  .custom-field input:focus + .placeholder {
+    top: -10px;
+    font-size: 10px;
+    color: #222;
+  }
+.Cara{
+    background-color: rgb(221, 205, 205);
+    display: blo;
+     min-height: 85vh;
+    flex-wrap: wrap;
+     margin: auto;
+     border: 1px solid #fff; 
+    margin: 20px 0;
+    padding: 10px;
+  }
+  .NewPost{
+    margin: 0 auto;
+    width: 810px;
+    padding: 20px;
+    color: white;
+  }
+
+  .IMG {
+    max-width: 100%;
+    height: 100%;
+    background-color: rgb(59, 59, 27);
+  }
+  .Animal{
+    width: 100px;
+  }
+  .MP{
+      font-size: 40px;
+      color: brown;
+      margin-left: center;
+      text-align: center;
+  }
+
+  .BtnPost {
+    min-width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676d7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  
+  .BtnPost:hover {
+    background: #1d49aa;
+  }
+  
+  .BtnPost:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
+  .item{
+      border: 1px solid #1d49aa;
+  }

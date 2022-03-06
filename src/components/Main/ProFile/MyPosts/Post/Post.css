@@ -1,0 +1,21 @@
+
+  .item{
+      border: 1px solid #1d49aa;
+      background-color: rgb(255, 255, 255);
+      border-radius: 20px;
+      padding: 10px;
+      margin-top: 5px;
+      width: auto;
+  }
+  .item img{
+      width: 40px;
+      height: 30px;
+      margin: 3px;
+      border-radius: 50px;
+  }
+  .Like img{
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    border-radius: 20px;
+  }

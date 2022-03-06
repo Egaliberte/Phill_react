@@ -1,0 +1,54 @@
+.Header {
+    background-color: #25003B(199, 216, 231);
+    flex: 0 0 auto;
+    width: 100%;
+    height: 5%;
+    margin: auto;
+  
+  }
+  .HeadMenu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  
+    list-style: none;
+    margin: 0;
+    background: #25003B;
+    font-size: 25px;
+  }
+  
+  .HeadMenu a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    color: white;
+    width: 200px;
+    
+  }
+  
+  .HeadMenu a:hover {
+    background: #1565C0;
+  }
+  
+  @media all and (max-width: 800px) {
+    .HeadMenu {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .HeadMenu {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .HeadMenu a {
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .HeadMenu li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+  

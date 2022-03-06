@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import ProF from './components/ProFile';
-import SetFooter from './components/Footer';
+import Header from './components/Header/Header';
+import Navigation from './components/Navigation/Navigation';
+import ProF from './components/Main/ProFile/ProFile';
+import SetFooter from './components/Footer/Footer';
 
 
 const App = () => {
@@ -11,10 +11,12 @@ const App = () => {
     <div className='App'>
       <Header />
       <Navigation />
+      
       <ProF />
       <SetFooter />
     </div>
   )
 }
 
-export default App
+
+export default App 

@@ -1,0 +1,54 @@
+
+.Nav{
+    background-color: #7600BA(204, 204, 246);
+    order: 1;
+    width: 10%;
+    min-height: 85vh;
+    background-color: #FEFBFB;
+    font-size: 25px;
+    align-items: center;
+    border: 1px solid #590ba3;
+
+  }
+  
+  
+  .Nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0em;
+    color: rgb(132, 19, 185);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    /* font-family: ‘Didact Gothic’, arial, serif; ; */
+    
+  }
+  
+  .Nav a:hover {
+    background: #590ba3;
+    color: white;
+  }
+  
+  @media all and (max-width: 800px) {
+    .Nav {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .Nav {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .Nav a {
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .Nav li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+  
