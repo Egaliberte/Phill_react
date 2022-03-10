@@ -19,7 +19,7 @@ const MyPostsMain = () => {
             <div>
                 <h1>Users posts</h1>
                 <div className='Post'>
-                    <Post message='АЛЕСЯ ДУРОЧКАААА !!!'/>
+                    <Post message='АЛЕСЯ !!!'/>
                     <Post message='СОГЛАСЕН С КОММЕНТАРИЕМ ВЫШЕ ОЛЕСЯ ОЧЕНЬ ГЛУПАЯ ИЗЛАЯ'/>
                     
                     

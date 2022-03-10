@@ -5,7 +5,7 @@ import Navigation from './components/Navigation/Navigation';
 import ProF from './components/Main/ProFile/ProFile';
 import SetFooter from './components/Footer/Footer';
 import Dialogs from './components/Dialogs/Dialogs';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Link} from 'react-router-dom';
 import News from './components/News/News';
 import Music from './components/Music/Music';
 import Videos from './components/Videos/Videos';
