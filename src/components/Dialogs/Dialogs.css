@@ -2,5 +2,47 @@
     color: aliceblue;
     order: 2;
     margin-inline-end: auto;
-    width: 80%;
+    width: 85vw;
+    display: flex;
+    height: 80vh;
+}
+
+.Dialogs-items{
+    width: 30vw;
+    border: 1px solid #fff;
+    font-size: 20px;
+}
+
+.Dialogs-items a {
+    text-decoration: none;
+    display: block;
+    padding: 0em;
+    color: rgb(255, 255, 255);
+    width: auto;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    font-family: ‘Didact Gothic’, arial, serif; 
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 0.5em;
+    
+    
+  }
+  
+
+.Dialogs-items a:hover{
+    font-size: 20px;
+    color: rgb(121, 50, 202);
+}
+
+
+
+.Messages{
+    width: 70vw;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+   
+
 }
